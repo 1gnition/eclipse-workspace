@@ -1,0 +1,34 @@
+package orip;
+
+import org.ff4j.FF4j;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Main {
+	
+	@Autowired
+	@Qualifier("foo1")
+	private Foo foo;
+	
+	@Autowired
+	private FF4j ff4j;
+	
+	public static void main(String[] args) {
+		ConfigurableApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
+		
+		Main main = context.getBean("main", Main.class);
+		main.doStuff();
+		
+		context.close();
+		System.exit(0);
+	}
+	
+	public void doStuff() {
+		System.out.println(foo.getNum());
+		
+	}
+}

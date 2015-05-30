@@ -1,0 +1,9 @@
+package orip;
+
+import javax.xml.bind.annotation.adapters.XmlAdapter;
+
+import org.w3c.dom.Element;
+
+public class MyAdapter extends XmlAdapter<Element, String> {
+
+}

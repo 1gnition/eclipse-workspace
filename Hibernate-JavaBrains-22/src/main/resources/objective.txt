@@ -1,0 +1,11 @@
+Transient and persistent objects
+--------------------------------
+
+1.	Save a user to the database, and while the session is still open, change the user. What happens?
+	Hibernate issues an update statement.
+2.	When an object is persisted using the session, it becomes a persistent object.
+	Before it's persisted it's a transient object.
+3.	Hence, once you commit the transaction, the last state is what will be reflected to the database.
+	More precisely, any change in between the begining to the end of the transaction is going to be ignored. Hibernate
+	figures out the least number of updates.
+4.	Once the session is closed, the object becomes detached. It is similar to transient object.

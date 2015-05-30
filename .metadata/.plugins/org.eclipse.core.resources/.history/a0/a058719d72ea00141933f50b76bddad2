@@ -1,0 +1,11 @@
+package orip;
+
+import org.ff4j.FF4j;
+
+public class Main {
+	public static void main(String[] args) {
+		FF4j ff4j = new FF4j("ff4j.xml");
+		System.out.println(ff4j.check("FEATURE_ONE"));
+		
+	}
+}

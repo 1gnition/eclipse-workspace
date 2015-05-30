@@ -1,0 +1,21 @@
+package orip;
+
+import org.ff4j.FF4j;
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Main {
+	
+	private Foo foo;
+	
+	public static void main(String[] args) {
+		FF4j ff4j = new FF4j("ff4j.xml");
+		
+		ConfigurableApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
+		
+		System.out.println(ff4j.check("FEATURE_ONE"));
+		
+		context.close();
+		System.exit(0);
+	}
+}

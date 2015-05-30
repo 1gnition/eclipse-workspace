@@ -1,0 +1,5 @@
+HQL
+---
+
+1.	In HQL we write queries that reference the class name instead of table name, and attribute name instead of
+	column name

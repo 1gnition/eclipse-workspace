@@ -1,0 +1,7 @@
+Single-table inheritance
+------------------------
+
+1.	Do it explicitly
+2.	Change the name of the DTYPE column
+3.	Change the discriminator value for TwoWheel from the default (the class name) to something else
+4.	Change the discriminator type to integer

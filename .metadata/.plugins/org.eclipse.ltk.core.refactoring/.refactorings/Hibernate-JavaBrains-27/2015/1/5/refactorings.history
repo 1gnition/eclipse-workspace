@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;query&apos; from expression &apos;session.createQuery(&quot;from UserDetails where id &gt; ?&quot;)&apos;&#x0D;&#x0A;- Original project: &apos;Hibernate-JavaBrains-27&apos;&#x0D;&#x0A;- Variable name: &apos;query&apos;&#x0D;&#x0A;- Destination method: &apos;orip.Main.main()&apos;&#x0D;&#x0A;- Variable expression: &apos;session.createQuery(&quot;from UserDetails where id &gt; ?&quot;)&apos;" description="Extract local variable &apos;query&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src\/main\/java&lt;orip{Main.java" name="query" replace="false" selection="858 0" stamp="1422482216896" version="1.0"/>
+</session>

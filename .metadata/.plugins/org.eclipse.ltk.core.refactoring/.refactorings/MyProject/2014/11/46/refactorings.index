@@ -1,0 +1,10 @@
+1415567725414	Extract local variable 'list'
+1415567805502	Rename local variable 'string'
+1415568871777	Extract local variable 'map'
+1415569287928	Infer generic type arguments
+1415569496703	Extract interface 'FooInter'
+1415569514747	Delete element
+1415823699252	Delete element
+1415824531553	Extract local variable 'preloader'
+1415825593794	Extract local variable 'task'
+1415829071863	Extract local variable 'main'

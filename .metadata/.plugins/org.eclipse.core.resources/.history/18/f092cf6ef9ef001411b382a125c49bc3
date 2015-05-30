@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <simpleType name="srcIdType">
+  <restriction base="ID">
+   <pattern value="s\d+" />
+  </restriction>
+ </simpleType>
+ 
+ <simpleType name="srcIdRefType">
+  <restriction base="IDREF">
+   <pattern value="s\d+" />
+  </restriction>
+ </simpleType>
+
+ <complexType name="sourceType">
+  <attribute name="src" type="tns:srcIdType" use="required" />
+ </complexType>
+</xs:schema>

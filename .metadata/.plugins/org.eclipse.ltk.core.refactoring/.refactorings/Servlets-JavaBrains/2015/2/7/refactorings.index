@@ -1,0 +1,11 @@
+1423825424347	Delete element
+1423826086463	Extract local variable 'writer'
+1423826174297	Extract local variable 'os'
+1423826304969	Extract local variable 'writer'
+1423832747993	Extract local variable 'name'
+1423833078791	Move file
+1423833127941	Move file
+1423865080117	Extract local variable 'locations'
+1423947834148	Extract local variable 'session'
+1423947889948	Extract local variable 'name'
+1423948309979	Extract local variable 'savedName'

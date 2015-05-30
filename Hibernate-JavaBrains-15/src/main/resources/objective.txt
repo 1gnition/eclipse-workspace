@@ -1,0 +1,2 @@
+1.	Modify the example so that a vehicle can have multiple owners
+2.	Now discard one join table using the mappedBy property

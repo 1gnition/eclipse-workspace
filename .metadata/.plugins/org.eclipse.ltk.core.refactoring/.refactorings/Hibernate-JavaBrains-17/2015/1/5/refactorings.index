@@ -1,0 +1,7 @@
+1422304137955	Delete element
+1422304288831	Encapsulate field 'handleBar'
+1422304328142	Encapsulate field 'steeringWheel'
+1422304397098	Extract local variable 'config'
+1422304446103	Extract local variable 'sessionFactory'
+1422304577582	Extract local variable 'vehicle2'
+1422304619326	Extract local variable 'vehicle3'

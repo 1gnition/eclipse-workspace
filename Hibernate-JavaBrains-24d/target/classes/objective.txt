@@ -1,0 +1,2 @@
+1.	Solve the problem of Hibernate issuing an update to unmodified objects using Hibernate's
+	(not JPA's!!) @SelectBeforeUpdate

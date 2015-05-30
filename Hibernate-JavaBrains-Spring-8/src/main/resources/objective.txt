@@ -1,0 +1,7 @@
+1.	Understand how to handle object whose attributes are themselves complex objects
+2.	Add an address field to UserDetails:
+		street, city, state, pincode
+3.	Save the address object inside the same table as the user
+4.	Unserstand the difference between entity object and value object
+	* A value object doesn't have a meaning by itself. It only has a meaning in a context of another object
+	* An entity has a meaning of its own

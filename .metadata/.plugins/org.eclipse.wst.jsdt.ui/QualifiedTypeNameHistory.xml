@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="String"/>
+<fullyQualifiedTypeName name="Element"/>
+<fullyQualifiedTypeName name="DocumentType"/>
+<fullyQualifiedTypeName name="CharacterData"/>
+<fullyQualifiedTypeName name="Event"/>
+<fullyQualifiedTypeName name="e.fn.init"/>
+<fullyQualifiedTypeName name="jQuery.Event"/>
+</qualifiedTypeNameHistroy>

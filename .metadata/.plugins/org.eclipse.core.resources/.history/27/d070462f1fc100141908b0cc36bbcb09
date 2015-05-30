@@ -1,0 +1,14 @@
+package first;
+
+public abstract class DrawDriver {
+	
+	String type;
+
+	public DrawDriver(String type) {
+		this.type = type;
+	}
+	
+	public void doDraw() {
+		System.out.println("drawing with low-res driver");
+	}
+}	

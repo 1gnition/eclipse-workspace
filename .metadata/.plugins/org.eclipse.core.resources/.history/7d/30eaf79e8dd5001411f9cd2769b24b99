@@ -1,0 +1,22 @@
+package tmp;
+
+import java.util.ArrayList;
+import java.util.Map.Entry;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentMap;
+
+public class Main {
+	public static void main(String[] args) {
+		ConcurrentMap<String,String> map = new ConcurrentHashMap<String, String>();
+		for (int i = 0; i < 1000; i++) {
+			map.put("|abcdefgh" + i + "|aaaaaaaaaaa|bbbbbbbbbb|", "" + i);
+		}
+		
+		List<String> list = new ArrayList<String>();
+		for (Entry<String, String> e : map.entrySet()) {
+			if (e.getKey().startsWith("weofpwefpweifoqnbgfo")) {
+				
+			}
+		}
+	}
+}

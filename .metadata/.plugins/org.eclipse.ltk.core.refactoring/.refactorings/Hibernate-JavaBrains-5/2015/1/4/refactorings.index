@@ -1,0 +1,8 @@
+1422022938273	Delete element
+1422023523792	Extract local variable 'config'
+1422023554688	Extract local variable 'sessionFactory'
+1422023578407	Extract local variable 'standardServiceRegistryBuilder'
+1422023624362	Extract local variable 'serviceRegistry'
+1422023780750	Extract local variable 'session'
+1422023834909	Extract local variable 'userDetails'
+1422025156721	Rename field 'desc'

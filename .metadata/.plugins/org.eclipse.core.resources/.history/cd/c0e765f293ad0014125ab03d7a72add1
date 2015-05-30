@@ -1,0 +1,36 @@
+package orip;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.OneToOne;
+
+import org.hibernate.annotations.Cascade;
+
+@Entity
+public class UserDetails {
+	@Id @GeneratedValue
+	private int id;
+	private String name;
+	@OneToOne(cascade=CascadeType.ALL)
+	private Vehicle vehicle;
+	public Vehicle getVehicle() {
+		return vehicle;
+	}
+	public void setVehicle(Vehicle vehicle) {
+		this.vehicle = vehicle;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+}

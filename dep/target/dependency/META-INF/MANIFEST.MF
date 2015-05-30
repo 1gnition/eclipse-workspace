@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Title: ff4j-core
+Implementation-Version: 1.3.1
+Archiver-Version: Plexus Archiver
+Built-By: clunven
+Specification-Vendor: Ff4J
+Specification-Title: ff4j-core
+Implementation-Vendor-Id: org.ff4j
+Created-By: Apache Maven 3.2.2
+Build-Jdk: 1.8.0_11
+Specification-Version: 1.3.1
+Implementation-Vendor: Ff4J
+

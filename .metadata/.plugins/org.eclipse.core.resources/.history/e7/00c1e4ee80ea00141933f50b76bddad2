@@ -1,0 +1,5 @@
+package orip;
+
+public class Bar {
+	private static int num;
+}

@@ -1,0 +1,15 @@
+1424123581439	Extract local variable 'writer'
+1424124190215	Extract local variable 'password'
+1424124349413	Extract local variable 'username'
+1424124358728	Extract local variable 'parameter'
+1424124392174	Extract local variable 'loginService'
+1424125803420	Extract local variable 'sessions'
+1424125975862	Delete element
+1424126070472	Rename resource 'index.jsp'
+1424126310372	Copy file
+1424126313427	Delete element
+1424126660820	Rename resource 'login.jsp'
+1424126696870	Rename resource 'zadf.jsp'
+1424126769080	Rename resource 'login.jsp'
+1424126798053	Rename resource 'index.jsp'
+1424126934464	Extract local variable 'requestDispatcher'

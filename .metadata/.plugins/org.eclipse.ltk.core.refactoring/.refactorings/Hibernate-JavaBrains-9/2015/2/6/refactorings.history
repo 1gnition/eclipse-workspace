@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;UserId.java&apos; to &apos;Hibernate-JavaBrains-Spring-8/src/main/java/orip&apos;&#x0D;&#x0A;- Original project: &apos;Hibernate-JavaBrains-9&apos;&#x0D;&#x0A;- Destination element: &apos;Hibernate-JavaBrains-Spring-8/src/main/java/orip&apos;&#x0D;&#x0A;- Original element: &apos;orip.dto.UserId.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=Hibernate-JavaBrains-Spring-8/src\/main\/java&lt;orip" element1="/src\/main\/java&lt;orip.dto{UserId.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1422998794110" units="1" version="1.0"/>
+</session>

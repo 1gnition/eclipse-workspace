@@ -1,0 +1,15 @@
+1418996160954	Delete element
+1418998583848	Extract local variable 'sessionFactory'
+1418998611088	Extract local variable 'session'
+1418999775983	Extract local variable 'file'
+1418999811941	Extract local variable 'rd'
+1418999883055	Extract local variable 'in'
+1418999937719	Extract local variable 'rd'
+1419000223350	Extract local variable 'in'
+1419001905684	Extract local variable 'sessionFactory'
+1419002443584	Extract local variable 'session'
+1419002995142	Move compilation units
+1419004061611	Extract local variable 'configure'
+1419004403045	Extract local variable 'user'
+1419079408289	Rename field 'SSN'
+1419082780578	Encapsulate field 'addresses'

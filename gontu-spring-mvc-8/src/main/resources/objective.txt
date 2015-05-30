@@ -1,0 +1,1 @@
+Add other paths inside the controller and assign the controller a path

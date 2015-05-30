@@ -1,0 +1,137 @@
+<!--
+
+This file deployed by ccih-base-startup-configuration RPM, and contains OApp self configuration information.
+It will be overwritten by the RPM on every installation, so you should not change this file manually.
+In case you want to apply configuration to OApp components, please refer to OApp Startup Configuration documentation.
+
+-->
+
+<appFrameworkConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///AppFrameworkConfig.xsd">
+
+    <accessManagement>
+
+        <permissions>
+
+            <!-- Dashboard permissions -->
+            <permission name="o_dashboard_application_name:o_dashboard_application_name:access" id="1"/>
+            <permission name="o_dashboard_application_name:o_dashboard_application_name:edit" id="2"/>
+
+            <!-- UUA Permissions -->
+            <permission name="o_uua_application_name:o_uua_application_name:access" id="3"/>
+
+      <!-- Liferay Permissions -->
+            <permission name="liferay:liferay:administration" id="4"/>
+      
+      <!-- UUA Backend Permissions -->
+      <permission name="useradmin:user:view" id="5"/>
+      <permission name="useradmin:user:edit" id="6"/>
+  </permissions>
+
+
+        <roles>
+            <role name="professional services" id="professional services">
+                <permissionsRef>
+                    <permissionRef id="1"/>
+                    <permissionRef id="2"/>
+                    <permissionRef id="3"/>
+        <permissionRef id="4"/>
+        <permissionRef id="5"/>
+        <permissionRef id="6"/>
+                </permissionsRef>
+            </role>
+
+            <role name="support" id="support">
+                <permissionsRef>
+                    <permissionRef id="1"/>
+                    <permissionRef id="2"/>
+                    <permissionRef id="3"/>
+        <permissionRef id="5"/>
+        <permissionRef id="6"/>
+                </permissionsRef>
+            </role>
+
+            <role name="administrator" id="administrator">
+                <permissionsRef>
+                    <permissionRef id="1"/>
+                    <permissionRef id="2"/>
+                    <permissionRef id="3"/>
+        <permissionRef id="5"/>
+        <permissionRef id="6"/>
+                </permissionsRef>
+            </role>
+
+        </roles>
+    </accessManagement>
+
+    <userManagement>
+        <userAttributes>
+            <userAttribute name="FIRST_NAME" type="STRING">
+                <ui title="First Name" readOnly="true" sortOrder="10" tooltip="User First Name" isVisiable="true" section="uua-new-user-section-1"/>
+                <rules>
+                    <rule validationType="REQUIRED" validationCalcValue="" isError="true"/>
+                    <rule validationType="MAX_SIZE" validationCalcValue="75" isError="true"/>
+                </rules>
+            </userAttribute>
+            <userAttribute name="LAST_NAME" type="STRING">
+                <ui title="Last Name" readOnly="true" sortOrder="30" tooltip="User Last Name" isVisiable="true" section="uua-new-user-section-1"/>
+                <rules>
+                    <rule validationType="REQUIRED" validationCalcValue="" isError="true"/>
+                    <rule validationType="MAX_SIZE" validationCalcValue="75" isError="true"/>
+                </rules>
+            </userAttribute>
+            <userAttribute name="LOGIN_NAME" type="STRING">
+                <ui title="Application Login" readOnly="true" sortOrder="60" tooltip="Application Login" isVisiable="true" section="uua-new-user-section-1"/>
+                <rules>
+                    <rule validationType="IS_UNIQUE" validationCalcValue="" isError="false"/>
+                </rules>
+            </userAttribute>
+            <userAttribute name="WORKSTATION_LOGIN" type="STRING">
+                <ui title="Workstation Login" readOnly="true" sortOrder="70" tooltip="Workstation Login" isVisiable="true" section="uua-new-user-section-1"/>
+                <rules>
+                    <rule validationType="IS_UNIQUE" validationCalcValue="" isError="false"/>
+                </rules>
+            </userAttribute>
+            <userAttribute name="EMAIL" type="STRING">
+                <ui title="Email" readOnly="true" sortOrder="50" tooltip="Email" isVisiable="true" section="uua-new-user-section-2"/>
+                <rules>
+                    <rule validationType="VALID_EMAIL" validationCalcValue="" isError="true"/>
+                    <rule validationType="IS_UNIQUE" validationCalcValue="" isError="false"/>
+                    <rule validationType="MAX_SIZE" validationCalcValue="75" isError="true"/>
+                </rules>
+            </userAttribute>
+            <userAttribute name="HIRE_DATE" type="DATETIME">
+                <ui title="Hire Date" readOnly="true" sortOrder="80" tooltip="Hire Date" isVisiable="true" section="uua-new-user-section-2"/>
+            </userAttribute>
+            <userAttribute name="SUFFIX" type="STRING">
+                <ui title="Suffix" readOnly="true" sortOrder="40" tooltip="Suffix" isVisiable="true" section="uua-new-user-section-2"/>
+            </userAttribute>
+            <userAttribute name="MIDDLE" type="STRING">
+                <ui title="Middle Name" readOnly="true" sortOrder="20" tooltip="Middle Name" isVisiable="true" section="uua-new-user-section-1"/>
+                <rules>
+                    <rule validationType="MAX_SIZE" validationCalcValue="75" isError="true"/>
+                </rules>
+            </userAttribute>
+        </userAttributes>
+    </userManagement>
+
+    <configuration>
+        <configurationItem key="|OAPP|Authorization|PermissionsChangedTopicName|" type="STRING">
+            <value>PermissionChangeNotification</value>
+            <caption></caption>
+            <description></description>
+        </configurationItem>
+
+        <configurationItem key="|OAPP|Authorization|PermissionsProviderURI|" type="STRING">
+            <value>/ccih-uua-web/uua-services/permissions/getRolePermissionsByBulks</value>
+            <caption></caption>
+            <description></description>
+        </configurationItem>
+    
+        <configurationItem key="|UUA|UserSettings|AmountOfDaysToDetectIdleUsers|" type="INT">
+            <value>0</value>
+            <caption>Deactivate account after [X] days of inactivity</caption>
+            <description>Amount of days of inactivity after which the user account will be deactivated</description>
+        </configurationItem>    
+    </configuration>
+
+</appFrameworkConfig>

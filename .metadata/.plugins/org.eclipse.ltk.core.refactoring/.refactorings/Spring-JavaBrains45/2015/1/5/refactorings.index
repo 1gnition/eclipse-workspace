@@ -1,0 +1,11 @@
+1422658764794	Extract local variable 'dao'
+1422661582316	Extract local variable 'config'
+1422661651176	Extract local variable 'sessionFactory'
+1422661661104	Extract local variable 'session'
+1422662482226	Extract local variable 'circle'
+1422662650493	Encapsulate field 'sessionFactory'
+1422662952897	Delete element
+1422663810318	Extract local variable 'session'
+1422663874597	Extract local variable 'query'
+1422663913175	Extract local variable 'uniqueResult'
+1422664879471	Extract local variable 'circle'

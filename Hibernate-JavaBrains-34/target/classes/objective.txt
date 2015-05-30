@@ -1,0 +1,5 @@
+Query Cache
+-----------
+
+The second-level cache works only for session.get(). Using a criteria or HQL won't
+work with Second-level cache

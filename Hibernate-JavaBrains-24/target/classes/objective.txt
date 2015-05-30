@@ -1,0 +1,6 @@
+1.	Consider a scenario where you get an object from the database, present it to the user,
+	and then wait for user input to change the object.
+	The user input can take a long time so you close the session meanwhile.
+	Now the object is detached. When the user input comes, you want to update
+	the entity in the database, so now you need the object to be persistent again.
+	detached ---> persistent.

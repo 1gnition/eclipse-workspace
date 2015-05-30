@@ -1,0 +1,16 @@
+Tomcat is the one who instantiates the Servlet objects, and also the request
+and response objects. These objects are Tomcat's own implementation of the
+specification. Every time a URL is accessed, a new Request and Response objects
+are created. The servlet is not. Servlet objects are reused. A thread is assigned
+to every request, and accesses the servlet.
+HTTP is a stateless protocol. How do we make it stateful? We use sessions. Just
+like Tomcat provides us a request object, it provides a session object.
+
+	request.getSession();
+
+What if we want an object that is persisted even through sessions?
+We use Servlet context:
+
+	request.getServletContext();
+	
+Thread are created per request, and run the servlet code (doGet(), doPost(), etc.)

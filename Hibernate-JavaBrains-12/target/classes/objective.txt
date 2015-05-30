@@ -1,0 +1,9 @@
+1.	What happens when fetching a UserDetails object from the database?
+	Do all the addresses fetched?
+	Answer: no. The addresses are fetched lazily.
+
+2.	Make an experiment where you get a userDetails, and close the session before
+	calling the addresses' getter method. What happens?
+	
+3.	Understand Hibernate proxying, and that collections are fetched lazily.
+4.	Understand how to change the configuration to eager fetching using the fetch attribute of @ElementCollection

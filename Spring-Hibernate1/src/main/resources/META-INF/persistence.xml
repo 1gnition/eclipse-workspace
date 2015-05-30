@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+	jar:file:C:\Users\orips_000\.m2\repository\org\hibernate\hibernate-entitymanager\4.3.8.Final\hibernate-entitymanager-4.3.8.Final.jar!/org/hibernate/jpa/persistence_2_1.xsd"
+	version="2.1">
+	
+	<persistence-unit name="punit">
+	</persistence-unit>
+	
+</persistence>

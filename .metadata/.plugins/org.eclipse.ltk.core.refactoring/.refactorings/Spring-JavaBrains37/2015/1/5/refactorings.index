@@ -1,0 +1,5 @@
+1422618611465	Extract local variable 'dao'
+1422618624681	Extract local variable 'circle'
+1422619822770	Extract local variable 'connection'
+1422619893649	Extract local variable 'ps'
+1422619939595	Extract local variable 'rs'

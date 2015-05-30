@@ -1,0 +1,3 @@
+1422823512256	Extract local variable 'emf'
+1422823532993	Extract local variable 'entityManager'
+1422823617931	Extract local variable 'circle'

@@ -1,0 +1,13 @@
+1423076532018	Extract local variable 'userDetailsDao'
+1423076543349	Extract local variable 'userDetails'
+1423077185626	Extract local variable 'vehicleDaoi'
+1423077248173	Extract local variable 'vehicle'
+1423335351673	Rename type 'UserDetails'
+1423335392601	Rename local variable 'userDetails'
+1423335418838	Rename local variable 'vehicle1'
+1423335551782	Rename type 'UserDetailsDao'
+1423335568376	Rename type 'UserDetailsDaoImpl'
+1423335639496	Rename local variable 'userDetailsDao'
+1423343387242	Delete elements
+1423347778935	Extract local variable 'userDetailsDao'
+1423347792712	Extract local variable 'userDetails'

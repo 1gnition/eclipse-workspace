@@ -1,0 +1,6 @@
+package visitor;
+
+public interface Visitor {
+	void visitDog(Dog dog);
+	void visitCat(Cat cat);
+}

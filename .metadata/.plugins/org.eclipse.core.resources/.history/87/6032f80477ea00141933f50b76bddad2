@@ -1,0 +1,9 @@
+package orip;
+
+import org.ff4j.aop.Flip;
+
+public interface Foo {
+	
+	@Flip(name="FEATURE_ONE", alterBean="foo1")
+	int getNum();
+}

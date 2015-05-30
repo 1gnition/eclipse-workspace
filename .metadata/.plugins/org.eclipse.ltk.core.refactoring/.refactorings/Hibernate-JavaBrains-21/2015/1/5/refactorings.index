@@ -1,0 +1,10 @@
+1422386669185	Delete elements
+1422386688169	Delete element
+1422386689619	Delete element
+1422386941249	Extract local variable 'config'
+1422387012695	Extract local variable 'sessionFactyory'
+1422387018655	Rename local variable 'sessionFactyory'
+1422387058806	Extract local variable 'session'
+1422387150730	Extract local variable 'userDetails'
+1422397297755	Copy packages
+1422397305215	Copy file

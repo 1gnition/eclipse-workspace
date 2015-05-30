@@ -1,0 +1,15 @@
+package leif;
+
+import org.w3c.dom.Element;
+ 
+public class ElementFormatter {
+ 
+    public static String printString(String value) {
+    	return null;
+    }
+ 
+    public static Element parseElement(String value) {
+    	return null;
+    }
+ 
+}

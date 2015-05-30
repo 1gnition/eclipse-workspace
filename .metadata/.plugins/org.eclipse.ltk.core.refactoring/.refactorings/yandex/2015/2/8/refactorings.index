@@ -1,0 +1,8 @@
+1424039478687	Extract local variable 'url'
+1424039511715	Extract local variable 'conn'
+1424039568100	Extract local variable 'is'
+1424039597826	Extract local variable 'br'
+1424039611428	Extract local variable 'sb'
+1424039727192	Extract local variable 'resp'
+1424039875819	Extract local variable 'os'
+1424039953691	Extract local variable 'wr'

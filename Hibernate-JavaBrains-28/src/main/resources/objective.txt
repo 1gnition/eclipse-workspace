@@ -1,0 +1,6 @@
+Named Queries
+-----------------
+
+Scattered queries all over the code is a bad practice.
+Named queries help us consolidate all the queries in one place
+	

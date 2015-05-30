@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="spring-annotation"/>
+			<item value="dep"/>
+			<item value="doughan"/>
+			<item value="jaxb"/>
+			<item value="org.orip"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="spring-annotation"/>
+			<item value="dep"/>
+			<item value="doughan"/>
+			<item value="jaxb"/>
+			<item value="try"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+			<item value="Jira"/>
+			<item value="jira"/>
+		</list>
+		<list key="issueManagementUrl">
+			<item value="https://jira.springsource.org/browse/SPR"/>
+			<item value="https://hibernate.atlassian.net/browse/HHH"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item value="480" key="width"/>
+		<item value="720" key="x"/>
+		<item value="72" key="y"/>
+		<item value="667" key="height"/>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\orips_000\Downloads\E-Learning\Spring\PacktPub - Building Web Applications using Spring MVC\Building Web Applications with Spring MVC [Video]\"/>
+			<item value="C:\Users\orips_000\Downloads\E-Learning\Spring\PacktPub - Building Web Applications using Spring MVC\Building Web Applications with Spring MVC [Video]\chocolatestore-starter"/>
+			<item value="C:\Users\orips_000\workspace\servlet1"/>
+			<item value="C:\Users\orips_000\Downloads\appfuse\appfuse"/>
+			<item value="C:\Users\orips_000\workspace\FitnessTracker2"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+	</section>
+	<section name="MavenCheckoutLocationPage">
+		<list key="scmUrl">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+	</section>
+	<section name="MavenDependenciesWizardPage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\orips_000\workspace\interview"/>
+			<item value="C:\Users\orips_000\workspace\even-odd-threads"/>
+			<item value="C:\Users\orips_000\workspace\Hibernate-NPlusOne"/>
+			<item value="C:\Users\orips_000\workspace\Hibernate-JavaBrains-Spring-8"/>
+			<item value="C:\Users\orips_000\workspace\mmm"/>
+			<item value="C:\Users\orips_000\workspace\yandex\src\main\java\yandex\Main.java"/>
+			<item value="C:\Users\orips_000\workspace\protein-tracker"/>
+			<item value="C:\Users\orips_000\workspace\Hibernate-JavaBrains-27"/>
+			<item value="C:\Users\orips_000\workspace\servlet1"/>
+			<item value="C:\Users\orips_000\workspace\servlet1\src\main\webapp\WEB-INF\web.xml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

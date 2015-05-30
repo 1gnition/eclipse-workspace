@@ -1,0 +1,19 @@
+<jxb:bindings xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:jxb="http://java.sun.com/xml/ns/jaxb" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/jaxb
+    http://java.sun.com/xml/ns/jaxb/bindingschema_2_0.xsd"
+  version="2.1">
+
+  <jxb:bindings schemaLocation="ff4j-1.4.0.xsd">
+    <jxb:bindings node="/xs:schema/xs:complexType/xs:choice/xs:element[@name='flipstrategy']/xs:complexType/xs:sequence/xs:element[@name='param']/xs:complexType/xs:simpleContent/xs:extension/xs:attribute[@name='value']">
+      <jxb:property name="valueAttribute">
+      </jxb:property>
+    </jxb:bindings>
+	<jxb:bindings node="/xs:schema/xs:complexType/xs:choice/xs:element[@name='properties']/xs:complexType/xs:sequence/xs:element[@name='property']/xs:complexType/xs:simpleContent/xs:extension/xs:attribute[@name='value']">
+      <jxb:property name="valueAttribute">
+      </jxb:property>
+    </jxb:bindings>
+  </jxb:bindings>
+  
+</jxb:bindings>
+

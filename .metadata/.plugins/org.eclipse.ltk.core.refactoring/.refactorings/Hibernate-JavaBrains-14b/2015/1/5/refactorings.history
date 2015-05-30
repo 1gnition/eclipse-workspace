@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;orip.dto.Vehicle.userDetails&apos; in &apos;orip.dto.Vehicle&apos;&#x0D;&#x0A;- Original project: &apos;Hibernate-JavaBrains-14b&apos;&#x0D;&#x0A;- Original element: &apos;orip.dto.Vehicle.userDetails&apos;&#x0D;&#x0A;- Getter method name: &apos;getUserDetails&apos;&#x0D;&#x0A;- Setter method name: &apos;setUserDetails&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;userDetails&apos;" flags="589830" getter="getUserDetails" id="org.eclipse.jdt.ui.self.encapsulate" input="/src\/main\/java&lt;orip.dto{Vehicle.java[Vehicle^userDetails" insertion="3" setter="setUserDetails" stamp="1422222839966" version="1.0" visibility="1"/>
+</session>

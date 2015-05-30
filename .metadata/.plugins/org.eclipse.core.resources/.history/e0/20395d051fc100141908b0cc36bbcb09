@@ -1,0 +1,6 @@
+package first;
+
+public abstract class DrawDriver {
+	
+	String type;
+}	

@@ -1,0 +1,5 @@
+1422475537700	Extract local variable 'userDetails'
+1422475686838	Extract local variable 'query'
+1422475731535	Extract local variable 'list'
+1422475791800	Infer generic type arguments
+1422476092030	Infer generic type arguments

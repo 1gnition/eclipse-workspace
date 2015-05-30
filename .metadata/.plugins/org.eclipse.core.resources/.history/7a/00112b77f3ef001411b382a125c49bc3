@@ -1,0 +1,7 @@
+package orip;
+
+import javax.xml.bind.annotation.adapters.XmlAdapter;
+
+public class MyAdapter extends XmlAdapter<String, Integer>{
+
+}

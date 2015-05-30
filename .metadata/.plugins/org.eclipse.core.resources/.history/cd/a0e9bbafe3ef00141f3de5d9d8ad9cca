@@ -1,0 +1,14 @@
+package orip;
+
+import java.io.File;
+
+import javax.xml.bind.JAXBContext;
+
+import com.sun.xml.bind.api.JAXBRIContext;
+
+public class Main {
+	public static void main(String[] args) throws Exception {
+		File file = new File("..\\..\\resources\\foo.xml");
+		JAXBContext jc = JAXBRIContext.newInstance("orip.generated");
+	}
+}

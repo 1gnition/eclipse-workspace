@@ -1,0 +1,6 @@
+Parameter binding
+-----------------
+
+To avoid SQL injection, don't do this:
+	createQuery("from UserDetails where id > " + userId);
+	

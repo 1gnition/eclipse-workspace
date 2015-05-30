@@ -1,0 +1,8 @@
+1. Understand the difference between hbm2ddl.auto property's "create" and "update" values.
+2. Change the name of the table in the database of the UserDetails class to USER_DETAILS
+3. Change the name of the column "name" of UserDetails to USER_NAME
+4. Change the name of the column "id" of UserDetails to USER_ID
+
+Points
+------
+1. We can place the field annotations on top of the getter methods instead of the fields themselves

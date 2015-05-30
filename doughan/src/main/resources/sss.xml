@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns:ns2="http://www.ff4j.org/schema/ff4j">
+  <feature uid="FEATURE_ON" enable="true" />
+  <feature uid="FEATURE_OFF" enable="false" />
+  <feature uid="FEATURE_ONE" enable="true" />
+  <feature uid="FEATURE_TWO" enable="false" />
+</features>

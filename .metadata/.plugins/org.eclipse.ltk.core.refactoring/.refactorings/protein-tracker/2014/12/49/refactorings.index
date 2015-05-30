@@ -1,0 +1,7 @@
+1417467788965	Extract local variable 'user'
+1417467869882	Extract local variable 'proteinData'
+1417468420059	Extract local variable 'session'
+1417468469981	Extract local variable 'user'
+1417470169262	Extract local variable 'session'
+1417470200523	Extract local variable 'query'
+1417470231779	Extract local variable 'list'

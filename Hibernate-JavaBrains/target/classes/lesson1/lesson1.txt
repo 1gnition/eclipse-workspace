@@ -1,0 +1,18 @@
+Hibernate is an ORM framework
+Compliant with JPA
+
+Motivation
+----------
+We normally use JDBC and manually map Java objects to SQL tables
+1.	Mapping member variables to columns
+	* Need to write boilerplate code.
+	* Every time we change the data (i.e. add a column), we have to change the code.
+2.	Need to handle relationships
+	* Create primary keys and mapping them to foreign keys
+3.	Data types of databases do not match Java data types.
+	* Need to handle this manually.
+4.	Managing object state.
+	* Need handle change in objects, and to figure our what had changed and to
+	make a database update call
+
+Managing all of this is a maintenance pain.

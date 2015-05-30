@@ -1,0 +1,21 @@
+This is important stuff that I learned from the whole course:
+
+1.	The owning side of a relationship is the side that has a foreign key column.
+2.	In one-to-many relationships, the side that has the foreign key is the many side.
+3.	In order to avoid a join table, define a mappedBy property on the owned side of the relationship.
+	3.1.	If the relationship is unidirectional, define a @JoinColumn on the owned side.
+			This will define a foreign key in the *inverse* side!!
+4.	The n+1 selects problem occurs when Persons have many Vehicles, and we want to traverse all
+	the Vehicles of those person while in lazy loading.
+	4.1.	A batch size can mitigate the problem (@BatchSize above the collection).
+	4.2.	Subselect is the best approach (@Fetch(type=...)). It creates a query with subselect on
+			all the elements of the "one" side whenever the first item of the collection is accessed
+5.	How to solve the problem where we have bidirectional relationship, and the session already closed?
+	5.1.	Use cascade.
+	5.2.	Add a dedicated method in the DAO (saveUsersWithVehicle)
+6.	How to solve the LazyInitialzation exception?
+	6.1.	OpenSessionInView
+	6.2.	Fetch join with merged methods in the DAO.
+7.	Why Hibernate always issues a left outer join?
+	7.1.	Because the relation is optional. Put @OneToXXX(optional=false)
+8.	createAlias() is our way to join tables during criteria query!

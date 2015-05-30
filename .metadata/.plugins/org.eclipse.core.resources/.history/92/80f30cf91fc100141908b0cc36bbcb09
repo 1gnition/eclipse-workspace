@@ -1,0 +1,9 @@
+package first;
+
+public abstract class PrintDriver {
+	String type;
+
+	public PrintDriver(String type) {
+		this.type = type;
+	}
+}

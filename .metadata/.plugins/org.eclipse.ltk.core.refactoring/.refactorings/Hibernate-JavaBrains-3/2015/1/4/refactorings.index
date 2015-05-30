@@ -1,0 +1,13 @@
+1422014739124	Move compilation unit
+1422014872746	Rename resource 'lesson3_1.txt'
+1422016020850	Extract local variable 'configuration'
+1422016174666	Extract local variable 'standardServiceRegistryBuilder'
+1422016236482	Extract local variable 'build'
+1422016249539	Rename local variable 'build'
+1422016288257	Extract local variable 'sessionFactory'
+1422016713602	Extract local variable 'configuration'
+1422016778745	Extract local variable 'standardServiceRegistryBuilder'
+1422016825803	Extract local variable 'build'
+1422016885836	Extract local variable 'sessionFactory'
+1422016922486	Extract local variable 'session'
+1422018665344	Extract local variable 'userDetails'

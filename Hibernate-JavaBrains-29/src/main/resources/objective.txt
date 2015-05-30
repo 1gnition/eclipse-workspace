@@ -1,0 +1,6 @@
+Criteria API
+-----------------
+
+The disadvantages of the HQL:
+1.	HQL is not very different from SQL. In real life the query is going to be very complex.
+	We end up with queries of 20-30 lines, and introducing a change is problematic (finding parentheses etc.)

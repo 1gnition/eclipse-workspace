@@ -1,0 +1,9 @@
+package orip;
+
+public class Foo2 implements Foo {
+
+	public int getNum() {
+		return 2;
+	}
+
+}

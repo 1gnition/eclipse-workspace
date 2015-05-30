@@ -1,0 +1,9 @@
+package first;
+
+public class LowDrawDriver extends DrawDriver {
+
+	public LowDrawDriver(String type) {
+		super(type);
+	}
+
+}

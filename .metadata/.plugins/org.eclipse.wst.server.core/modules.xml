@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:spring-mvc" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:gontu-spring-mvc-10" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:mvc" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:gontu-spring-mvc-7" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:gontu-spring-mvc-13" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:gontu-spring-mvc-6" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:gontu-spring-mvc-14" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:gontu-spring-mvc-11d" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:gontu-spring-mvc-11c" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:gontu-spring-mvc-11a" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:Servlets-JavaBrains" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:gontu-spring-mvc-9a" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:gontu-spring-mvc-9b" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:gontu-spring-mvc-8" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:servlet-login" serverId="Tomcat v7.0 Server at localhost"/>
+</modules>

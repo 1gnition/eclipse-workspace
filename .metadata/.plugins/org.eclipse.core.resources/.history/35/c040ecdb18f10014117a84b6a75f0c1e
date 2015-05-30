@@ -1,0 +1,6 @@
+package an;
+
+@org.springframework.context.annotation.Configuration
+public class Configuration {
+
+}

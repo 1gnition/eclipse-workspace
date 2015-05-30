@@ -1,0 +1,1 @@
+Use Map instead of separate arguments to capture template variables

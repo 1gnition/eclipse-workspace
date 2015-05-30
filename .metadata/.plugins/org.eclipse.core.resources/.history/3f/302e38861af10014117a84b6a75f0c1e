@@ -1,0 +1,21 @@
+package an;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class AppConfig {
+	@Bean
+	public Bar getBar() {
+		Bar bar = new Bar();
+		bar.setString("123");
+		return bar;
+	}
+	
+	@Bean
+	public Foo getFoo() {
+		Foo foo = new Foo();
+		foo.setBar(getBar());
+		return foo;
+	}
+}

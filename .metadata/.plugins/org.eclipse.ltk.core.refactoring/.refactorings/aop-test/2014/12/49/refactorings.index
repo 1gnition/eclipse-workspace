@@ -1,0 +1,4 @@
+1417880976115	Delete element
+1417881087885	Extract local variable 'ctx'
+1417881125337	Extract local variable 'foo'
+1417882169300	Rename type 'Foo'

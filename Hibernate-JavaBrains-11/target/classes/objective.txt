@@ -1,0 +1,5 @@
+1.	Change the name of the join table
+2.	Change the name of the foreign key using @JoinColumns
+	* The number of columns needs to be equal to the number of the join columns.
+	  In case of a composite id, the columns need that have a name and a referenceColumnName
+3.	Add a primary key to the join table using @CollectionId (NOT JPA!!!)

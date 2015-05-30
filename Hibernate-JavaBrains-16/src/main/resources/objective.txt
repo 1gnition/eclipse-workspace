@@ -1,0 +1,2 @@
+1.	Add 100 vehicles to a user and persist the user.
+2.	Understand cascading

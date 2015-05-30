@@ -1,0 +1,2 @@
+1.	Now perform another modification to the user after you updated it and got it re-persisted.
+	How many update statements Hibernate issues?

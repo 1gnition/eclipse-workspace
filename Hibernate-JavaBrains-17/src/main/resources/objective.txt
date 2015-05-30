@@ -1,0 +1,12 @@
+1.	Understand how to use inheritance with Hibernate
+2.	Why do we have to use inheritance?
+	2.1	For example, if UserDetails has a collection of abstract class Vehicle
+		that can contain any of the Vehicle subclasses TwoWheelerVehicle and FourWheelerVehicle. Then to what table
+		does the collection references? the two or four wheeler?
+	2.2	Another reason - if we add a method to the superclass, then the subclasses inherit the method,
+		but their tables lack a column 
+		
+Single-table inheritance
+------------------------
+
+3.	Create a vehicle class and two subclass and save them to the database

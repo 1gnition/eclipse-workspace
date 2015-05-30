@@ -1,0 +1,17 @@
+package visitor;
+
+public class SoundVisitor implements Visitor {
+
+	@Override
+	public void visitDog(Dog dog) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void visitCat(Cat cat) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

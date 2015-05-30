@@ -1,0 +1,4 @@
+1.	Add the Hibernate dependency to Maven.
+2.	Add the JDBC driver of the database to Maven.
+3.	Search for a template hibernate.cfg.xml on the website.
+4.	For details about the various configuration, see the comments on XML.

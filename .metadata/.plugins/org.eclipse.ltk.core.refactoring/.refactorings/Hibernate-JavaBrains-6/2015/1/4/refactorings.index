@@ -1,0 +1,6 @@
+1422027135651	Extract local variable 'config'
+1422027156573	Extract local variable 'standardServiceRegistryBuilder'
+1422027187385	Extract local variable 'serviceRegistry'
+1422027205272	Extract local variable 'sessionFactory'
+1422027233201	Extract local variable 'session'
+1422027387294	Extract local variable 'userDetails'

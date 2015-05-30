@@ -1,0 +1,12 @@
+Caching
+-------
+
+1.	There is level of cache which is enabled by default in Hibernate. This is the first level cache.
+	This cache is actually implemented as part of the Session class.
+	For example: when a session.get() is called twice, Hibernate won't issue another select operation.
+2.	This caching won't be effective if we closed the session. If we open a new session all the cached data
+	is lost. This is the motivation for second-level caching.
+3.	There are three types of second-level cache:
+	3.1.	Across sessions in the same application
+	3.2.	Across sessions in different applcations
+	3.3.	Across clusters

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/jaxb
+  http://java.sun.com/xml/ns/jaxb/bindingschema_2_0.xsd"
+  jaxb:version="2.0">
+
+  <jaxb:bindings schemaLocation="foo.xsd" node="//xs:schema/xs:simpleType[@name='srcIdType']">
+    <jaxb:class ref="somepackage.SrcId" />
+  </jaxb:bindings>
+
+  <jaxb:bindings schemaLocation="foo.xsd" node="//xs:schema/xs:simpleType[@name='srcIdRefType']">
+    <jaxb:class ref="somepackage.SrcIdRef" />
+  </jaxb:bindings>
+
+</jaxb:bindings>

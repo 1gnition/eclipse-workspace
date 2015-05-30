@@ -1,0 +1,5 @@
+package blog.xmladapter.bindings;
+
+public class NumberFormatter {
+
+}

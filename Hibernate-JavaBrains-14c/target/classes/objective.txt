@@ -1,0 +1,1 @@
+1.	Change the relationship to many-to-one on the Vehicle side, thus eliminating the need to an join table

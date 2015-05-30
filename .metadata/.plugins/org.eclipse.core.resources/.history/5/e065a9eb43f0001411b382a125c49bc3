@@ -1,0 +1,15 @@
+<jxb:bindings xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/jaxb
+    http://java.sun.com/xml/ns/jaxb/bindingschema_2_0.xsd"
+    version="2.1">
+    <jxb:bindings schemaLocation="format.xsd">
+        <jxb:bindings node="//xs:element[@name='features']">
+            <jxb:property>
+                <jxb:baseType name="org.w3.dom.Element">
+                </jxb:baseType>
+            </jxb:property>
+        </jxb:bindings>
+    </jxb:bindings>
+</jxb:bindings>

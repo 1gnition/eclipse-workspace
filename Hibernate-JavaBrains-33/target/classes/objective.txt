@@ -1,0 +1,4 @@
+Caching
+-------
+
+1.	Eliminate the second select query to the DB from the previous lessons using second-level cache.

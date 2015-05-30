@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+      "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+      "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+
+	<session-factory>
+		<!-- Database connection settings -->
+
+		<!-- Every JDBC driver implements java.sql.Driver. Search for that class 
+			in the artifact of your database's JDBC driver -->
+		<property name="connection.driver_class">org.postgresql.Driver</property>
+
+		<!-- Look for this in the driver's documentation -->
+		<property name="connection.url">jdbc:postgresql://localhost:5432/javabrains
+		</property>
+		<property name="connection.username">postgres</property>
+		<property name="connection.password">password</property>
+
+		<!-- JDBC connection pool (use the built-in) -->
+		<property name="connection.pool_size">1</property>
+
+		<!-- SQL dialect -->
+		<!-- Look for it in the hibernate artifact -->
+		<property name="dialect">org.hibernate.dialect.PostgreSQLDialect
+		</property>
+
+		<!-- Enable Hibernate's automatic session context management -->
+		<property name="current_session_context_class">thread</property>
+
+		<!-- Disable the second-level cache -->
+		<property name="cache.provider_class">org.hibernate.cache.internal.NoCacheProvider
+		</property>
+
+		<!-- Echo all executed SQL to stdout -->
+		<property name="show_sql">true</property>
+
+		<!-- Drop and re-create the database schema on startup -->
+		<property name="hbm2ddl.auto">update</property>
+
+		<mapping class="orip.dto.UserDetails" />
+
+	</session-factory>
+</hibernate-configuration>

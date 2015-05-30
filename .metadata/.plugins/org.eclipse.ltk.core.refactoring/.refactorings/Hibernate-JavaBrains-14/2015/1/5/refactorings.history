@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;vehicle&apos; in &apos;orip.Main.main(...)&apos; to &apos;vehicle1&apos;&#x0D;&#x0A;- Original project: &apos;Hibernate-JavaBrains-14&apos;&#x0D;&#x0A;- Original element: &apos;orip.Main.main(String[]).vehicle&apos;&#x0D;&#x0A;- Renamed element: &apos;vehicle&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;vehicle&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java&lt;orip{Main.java[Main~main~\[QString;@vehicle!889!920!897!903!QVehicle;!0!false" name="vehicle1" references="true" stamp="1422213535600" version="1.0"/>
+</session>

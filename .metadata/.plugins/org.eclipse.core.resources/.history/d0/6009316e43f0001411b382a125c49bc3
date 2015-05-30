@@ -1,0 +1,12 @@
+<jxb:bindings xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:jxb="http://java.sun.com/xml/ns/jaxb" version="2.1">
+    <jxb:bindings schemaLocation="format.xsd">
+        <jxb:bindings node="//xs:element[@name='features']">
+            <jxb:property>
+                <jxb:baseType>
+                    <jxb:javaType bas />
+                </jxb:baseType>
+            </jxb:property>
+        </jxb:bindings>
+    </jxb:bindings>
+</jxb:bindings>

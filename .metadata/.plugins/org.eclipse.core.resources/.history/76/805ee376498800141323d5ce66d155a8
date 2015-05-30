@@ -1,0 +1,22 @@
+package com.orip;
+import org.hibernate.Session;
+
+public class App {
+
+	public static void main(String[] args) throws Exception {
+		
+		User user = new User("ori");
+		user.setAddress(new Address("Elm", "LA"));
+		user.setAddress2(new Address("Oak", "NY"));
+		
+		Session session = HibernateUtils.getSessionfactory()
+				.openSession();
+		
+		session.beginTransaction();
+		
+		session.save(user);
+		
+		session.getTransaction().commit();		
+		session.close();
+	}
+}

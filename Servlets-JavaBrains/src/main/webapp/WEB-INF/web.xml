@@ -1,0 +1,37 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0"> 
+      
+	<servlet>
+		<servlet-name>xmlServlet</servlet-name>
+		<servlet-class>org.orip.XmlServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>responsiveServlet</servlet-name>
+		<servlet-class>org.orip.ResponsiveServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>servletWithSession</servlet-name>
+		<servlet-class>org.orip.ServletWithSession</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>xmlServlet</servlet-name>
+		<url-pattern>/xmlServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>responsiveServlet</servlet-name>
+		<url-pattern>/responsiveServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>servletWithSession</servlet-name>
+		<url-pattern>/servletWithSession</url-pattern>
+	</servlet-mapping>
+	
+</web-app>

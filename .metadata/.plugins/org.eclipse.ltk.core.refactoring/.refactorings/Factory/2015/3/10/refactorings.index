@@ -1,0 +1,34 @@
+1425238409304	Delete elements
+1425238598504	Rename type 'AbstractProductB1'
+1425242208011	Delete elements
+1425243319248	Copy compilation unit
+1425243594321	Delete elements
+1425246074039	Copy compilation units
+1425246815846	Copy compilation unit
+1425246824188	Copy compilation unit
+1425254407180	Rename type 'ElementaryColors'
+1425329205424	Delete elements
+1425329699535	Rename local variable 'resolution'
+1425329705050	Rename local variable 'resolution'
+1425329953766	Rename type 'Driver'
+1425330064363	Copy compilation unit
+1425330186235	Rename local variable 'drawDriver'
+1425330268955	Copy compilation unit
+1425331009378	Delete element
+1425331027425	Rename type 'Mainb'
+1425332408039	Rename type 'HighDrawDriver'
+1425332416154	Rename type 'LowDrawDriver'
+1425332456983	Rename type 'HighPrintDriver'
+1425332462608	Rename type 'LowPrintDriver'
+1425332477189	Rename local variable 'highDrawDriver'
+1425332482627	Rename local variable 'lowDrawDriver'
+1425332488689	Rename local variable 'hrpd'
+1425332492736	Rename local variable 'lrpd'
+1425332497815	Rename local variable 'highPrintDriver'
+1425332502315	Rename local variable 'lowPrintDriver'
+1425332594027	Rename type 'DrawDriver'
+1425332662709	Copy compilation units
+1425332682377	Move compilation unit
+1425332684736	Delete element
+1425332766887	Delete element
+1425333748289	Copy compilation unit

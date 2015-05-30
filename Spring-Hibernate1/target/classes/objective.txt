@@ -1,0 +1,36 @@
+Bibliography:
+1.	Pluralsight – Spring with JPA and Hibernate.
+2.	Spring in Action 3e - pp. 138.
+
+
+Spring has three components that we'll use:
+	1.	Controller
+	2.	Service
+	3.	Repository
+	
+@Controller
+The controllers are like the routers of the applications. They handle incoming requests and handle
+the responses. We should not put business logic in the Controller. The controller talks to the service
+layer.
+
+@Service
+The service describes the verbs/actions of our system. It's where the business logic resides,
+and it ensures that the business object is in a valid state. It's where we put the transactions.
+
+@Repository
+The repository is where we interact with JPA. It has a one-to-one mapping to the table. It is the DAO
+(Data Access Object).
+
+
+PERSISTENCE.XML
+If we didn't use Spring this is where we would define all the stuff.
+The advantages of Spring is that:
+-	We can override settings for environment
+-	Easier to test
+-	We can inject the definitions to other objects
+
+1.	We still need an empty persistence.xml.
+2.	Create a Spring XML with annotation scan, and add PersistenceAnnotationBeanPostProcessor.
+3.	PABPP detects @PersistenceUnit and @PersistenceContext.
+
+

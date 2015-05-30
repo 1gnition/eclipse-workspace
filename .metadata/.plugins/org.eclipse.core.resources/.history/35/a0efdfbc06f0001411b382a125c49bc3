@@ -1,0 +1,13 @@
+package leif;
+
+import org.w3c.dom.Element;
+ 
+public class ElementFormatter {
+ 
+    public static String printString(Element value) {
+    }
+ 
+    public static Element parseElement(String value) {
+    }
+ 
+}

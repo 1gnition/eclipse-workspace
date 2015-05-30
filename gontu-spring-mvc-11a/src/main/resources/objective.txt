@@ -1,0 +1,1 @@
+Replace the code from the previous lesson to use a Student object

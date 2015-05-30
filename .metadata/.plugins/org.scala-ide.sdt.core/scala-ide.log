@@ -1,0 +1,373 @@
+2015-01-02 00:54:26,097  WARN [ModalContext] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-02 00:54:26,099  WARN [ModalContext] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-02 00:54:32,814  WARN [Worker-1] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-02 00:54:32,814  WARN [Worker-1] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-02 14:44:38,083  WARN [Worker-3] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-02 14:44:38,085  WARN [Worker-3] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-02 14:45:18,873  WARN [Worker-2] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-02 14:45:18,874  WARN [Worker-2] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-02 14:46:09,763  WARN [Worker-4] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-02 14:46:09,763  WARN [Worker-4] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-02 14:50:39,991  WARN [Worker-2] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-02 14:50:39,992  WARN [Worker-2] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-02 14:58:39,928  WARN [Worker-2] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-02 14:58:39,929  WARN [Worker-2] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-02 15:02:49,910  WARN [Worker-14] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-02 15:02:49,910  WARN [Worker-14] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-02 15:03:04,456  WARN [Worker-11] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-02 15:03:04,457  WARN [Worker-11] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-02 15:03:11,576  WARN [Worker-13] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-02 15:03:11,576  WARN [Worker-13] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-02 15:03:20,942  WARN [Worker-15] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-02 15:03:20,943  WARN [Worker-15] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-02 15:03:41,077  WARN [Worker-14] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-02 15:03:41,077  WARN [Worker-14] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-02 15:32:31,185  WARN [Worker-16] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-02 15:32:31,185  WARN [Worker-16] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-02 15:32:36,266 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.tools.nsc.interactive.FreshRunReq
+2015-01-02 15:32:36,271 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Incorrectly logged ControlThrowable: FreshRunReq(null)
+scala.tools.nsc.interactive.FreshRunReq
+2015-01-02 15:34:38,019  WARN [Worker-19] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-02 15:34:38,020  WARN [Worker-19] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-02 15:35:11,060  WARN [Worker-17] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-02 15:35:11,061  WARN [Worker-17] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-02 15:35:17,093  WARN [Worker-21] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-02 15:35:17,093  WARN [Worker-21] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-02 15:36:28,240 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:377)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:130)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:105)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:95)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:147)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:950)
+	at scala.tools.nsc.interactive.Global.scala$tools$nsc$interactive$Global$$typedTreeAt(Global.scala:799)
+	at scala.tools.nsc.interactive.Global$$anonfun$getTypedTreeAt$1.apply(Global.scala:829)
+	at scala.tools.nsc.interactive.Global$$anonfun$getTypedTreeAt$1.apply(Global.scala:829)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:688)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:695)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.getTypedTreeAt(Global.scala:829)
+	at scala.tools.nsc.interactive.CompilerControl$AskTypeAtItem.apply$mcV$sp(CompilerControl.scala:326)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:493)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.Global.checkForMoreWork(Global.scala:507)
+	at scala.tools.nsc.interactive.Global.signalParseProgress(Global.scala:318)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefRest(Parsers.scala:2619)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefOrDcl(Parsers.scala:2576)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.defOrDcl(Parsers.scala:2461)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.nonLocalDefOrDcl(Parsers.scala:2473)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3030)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3030)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3030)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3025)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:2957)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStats(Parsers.scala:3024)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:3011)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:2988)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStatSeq(Parsers.scala:2988)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBody(Parsers.scala:2917)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBodyOpt(Parsers.scala:2924)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateOpt(Parsers.scala:2888)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.objectDef(Parsers.scala:2773)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.tmplDef(Parsers.scala:2712)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topLevelTmplDef(Parsers.scala:2693)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:2980)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:2980)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:2980)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:2973)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:2957)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topStatSeq(Parsers.scala:2972)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.topstats$1(Parsers.scala:3170)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.topstats$1(Parsers.scala:3162)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3176)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3138)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.compilationUnit(Parsers.scala:3138)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parseRule(Parsers.scala:345)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parse(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$UnitParser.smartParse(Parsers.scala:241)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer.scala$tools$nsc$ast$parser$SyntaxAnalyzer$$initialUnitBody(SyntaxAnalyzer.scala:87)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer$ParserPhase.apply(SyntaxAnalyzer.scala:99)
+	at scala.tools.nsc.Global$GlobalPhase$$anonfun$applyPhase$1.apply$mcV$sp(Global.scala:428)
+	at scala.tools.nsc.Global$GlobalPhase.withCurrentUnit(Global.scala:419)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:428)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1445)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1445)
+	at scala.reflect.internal.SymbolTable.enteringPhase(SymbolTable.scala:235)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1445)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1444)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:743)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1195)
+	at scala.tools.nsc.Global$Run.compileLate(Global.scala:1444)
+	at scala.tools.nsc.interactive.Global.scala$tools$nsc$interactive$Global$$parseAndEnter(Global.scala:645)
+	at scala.tools.nsc.interactive.Global.backgroundCompile(Global.scala:551)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:25)
+2015-01-02 15:38:10,119  WARN [Worker-17] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-02 15:38:10,119  WARN [Worker-17] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-02 18:10:57,900  WARN [Worker-38] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-02 18:10:57,901  WARN [Worker-38] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-03 13:21:52,055  WARN [main] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-03 13:21:52,087  WARN [main] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-03 13:33:46,508  WARN [Worker-4] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-03 13:33:46,509  WARN [Worker-4] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-03 13:35:20,922  WARN [Worker-8] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-03 13:35:20,923  WARN [Worker-8] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-03 13:36:25,643  WARN [Worker-7] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-03 13:36:25,644  WARN [Worker-7] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-03 13:36:29,477  WARN [Worker-4] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-03 13:36:29,478  WARN [Worker-4] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-18 22:46:29,676  WARN [main] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-18 22:46:29,691  WARN [main] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-23 11:45:57,531  WARN [Worker-3] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-23 11:45:57,604  WARN [Worker-3] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-24 20:38:59,675  WARN [Worker-0] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-24 20:38:59,706  WARN [Worker-0] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-24 23:54:14,932  WARN [Worker-95] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-24 23:54:14,933  WARN [Worker-95] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-25 00:02:12,374  WARN [Worker-0] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-25 00:02:12,376  WARN [Worker-0] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-25 20:22:19,119  WARN [main] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-25 20:22:19,119  WARN [Worker-1] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-25 20:22:19,136  WARN [main] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-25 20:22:19,136  WARN [Worker-1] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-25 20:22:33,858  WARN [Worker-3] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-25 20:22:33,858  WARN [Worker-3] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-26 19:06:00,304  WARN [Worker-2] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-26 19:06:00,327  WARN [Worker-2] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-27 21:10:16,983  WARN [Worker-4] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-27 21:10:17,069  WARN [Worker-4] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-28 00:25:58,693  WARN [main] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-28 00:25:58,695  WARN [main] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-28 22:02:07,653  WARN [Worker-2] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-28 22:02:07,679  WARN [Worker-2] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-29 18:41:40,998  WARN [Worker-2] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-29 18:41:41,045  WARN [Worker-2] - ScalaProject - Project sandbox runs on platform default installation.
+2015-01-31 13:42:33,473  WARN [Worker-2] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-01-31 13:42:33,488  WARN [Worker-2] - ScalaProject - Project sandbox runs on platform default installation.
+2015-02-01 21:38:31,399  WARN [Worker-0] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-02-01 21:38:31,415  WARN [Worker-0] - ScalaProject - Project sandbox runs on platform default installation.
+2015-02-02 19:46:16,447  WARN [Worker-3] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-02-02 19:46:16,483  WARN [Worker-3] - ScalaProject - Project sandbox runs on platform default installation.
+2015-02-02 20:19:56,260  WARN [Worker-6] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-02-02 20:19:56,266  WARN [Worker-6] - ScalaProject - Project sandbox runs on platform default installation.
+2015-02-02 22:12:50,712 ERROR [Worker-57] - System.err - [Fatal Error] :22:5: Element type "uti" must be followed by either attribute specifications, ">" or "/>".
+2015-02-02 22:12:53,221 ERROR [Worker-55] - System.err - [Fatal Error] :22:5: Element type "uti" must be followed by either attribute specifications, ">" or "/>".
+2015-02-02 22:13:25,077 ERROR [Worker-57] - System.err - [Fatal Error] :22:5: Element type "util" must be followed by either attribute specifications, ">" or "/>".
+2015-02-02 22:13:27,252 ERROR [Worker-49] - System.err - [Fatal Error] :22:5: Element type "util" must be followed by either attribute specifications, ">" or "/>".
+2015-02-02 22:13:29,529 ERROR [Worker-54] - System.err - [Fatal Error] :22:5: Element type "util" must be followed by either attribute specifications, ">" or "/>".
+2015-02-02 22:13:32,682 ERROR [Worker-55] - System.err - [Fatal Error] :22:5: Element type "util" must be followed by either attribute specifications, ">" or "/>".
+2015-02-02 22:14:42,556 ERROR [Worker-51] - System.err - [Fatal Error] :22:5: Element type "util" must be followed by either attribute specifications, ">" or "/>".
+2015-02-02 22:14:44,577 ERROR [Worker-51] - System.err - [Fatal Error] :22:5: Element type "util" must be followed by either attribute specifications, ">" or "/>".
+2015-02-02 22:14:58,129 ERROR [Worker-49] - System.err - [Fatal Error] :22:5: Element type "util" must be followed by either attribute specifications, ">" or "/>".
+2015-02-02 22:15:05,371 ERROR [Worker-49] - System.err - [Fatal Error] :21:23: The prefix "util" for element "util:constant" is not bound.
+2015-02-02 22:15:33,275 ERROR [Worker-55] - System.err - [Fatal Error] :21:23: The prefix "util" for element "util:constant" is not bound.
+2015-02-02 22:15:37,285 ERROR [Worker-51] - System.err - [Fatal Error] :21:23: The prefix "util" for element "util:constant" is not bound.
+2015-02-02 22:15:41,192 ERROR [Worker-31] - System.err - [Fatal Error] :21:23: The prefix "util" for element "util:constant" is not bound.
+2015-02-02 22:16:03,826 ERROR [Worker-49] - System.err - [Fatal Error] :11:2: The value of attribute "xsi:schemaLocation" associated with an element type "null" must not contain the '<' character.
+2015-02-02 22:16:10,407 ERROR [Worker-49] - System.err - [Fatal Error] :11:2: The value of attribute "xsi:schemaLocation" associated with an element type "null" must not contain the '<' character.
+2015-02-02 22:16:38,148 ERROR [Worker-49] - System.err - [Fatal Error] :11:2: The value of attribute "xsi:schemaLocation" associated with an element type "null" must not contain the '<' character.
+2015-02-02 22:16:38,154 ERROR [Worker-49] - System.err - [Fatal Error] :11:2: The value of attribute "xsi:schemaLocation" associated with an element type "null" must not contain the '<' character.
+2015-02-02 22:16:40,691 ERROR [Worker-55] - System.err - [Fatal Error] :11:2: The value of attribute "xsi:schemaLocation" associated with an element type "null" must not contain the '<' character.
+2015-02-02 22:16:43,515 ERROR [Worker-60] - System.err - [Fatal Error] :11:2: The value of attribute "xsi:schemaLocation" associated with an element type "null" must not contain the '<' character.
+2015-02-02 22:16:48,907 ERROR [Worker-51] - System.err - [Fatal Error] :11:2: The value of attribute "xsi:schemaLocation" associated with an element type "null" must not contain the '<' character.
+2015-02-02 22:16:52,356 ERROR [Worker-61] - System.err - [Fatal Error] :11:2: The value of attribute "xsi:schemaLocation" associated with an element type "null" must not contain the '<' character.
+2015-02-02 22:16:56,187 ERROR [Worker-54] - System.err - [Fatal Error] :11:2: The value of attribute "xsi:schemaLocation" associated with an element type "null" must not contain the '<' character.
+2015-02-02 22:16:58,795 ERROR [Worker-49] - System.err - [Fatal Error] :11:2: The value of attribute "xsi:schemaLocation" associated with an element type "null" must not contain the '<' character.
+2015-02-02 22:17:02,025 ERROR [Worker-31] - System.err - [Fatal Error] :11:2: The value of attribute "xsi:schemaLocation" associated with an element type "null" must not contain the '<' character.
+2015-02-02 22:17:07,963 ERROR [Worker-31] - System.err - [Fatal Error] :5:61: Attribute name "orip" associated with an element type "beans" must be followed by the ' = ' character.
+2015-02-02 22:17:26,428 ERROR [Worker-61] - System.err - [Fatal Error] :13:2: The markup in the document following the root element must be well-formed.
+2015-02-02 22:17:35,237 ERROR [Worker-31] - System.err - [Fatal Error] :14:2: The markup in the document following the root element must be well-formed.
+2015-02-02 22:28:43,865 ERROR [Worker-60] - System.err - [Fatal Error] :12:2: The value of attribute "xsi:schemaLocation" associated with an element type "null" must not contain the '<' character.
+2015-02-02 22:28:43,867 ERROR [Worker-60] - System.err - [Fatal Error] :12:2: The value of attribute "xsi:schemaLocation" associated with an element type "null" must not contain the '<' character.
+2015-02-02 22:28:55,108 ERROR [Worker-64] - System.err - [Fatal Error] :12:2: The value of attribute "xsi:schemaLocation" associated with an element type "null" must not contain the '<' character.
+2015-02-02 22:28:55,112 ERROR [Worker-64] - System.err - [Fatal Error] :12:2: The value of attribute "xsi:schemaLocation" associated with an element type "null" must not contain the '<' character.
+2015-02-02 22:28:57,136 ERROR [Worker-60] - System.err - [Fatal Error] :12:2: The value of attribute "xsi:schemaLocation" associated with an element type "null" must not contain the '<' character.
+2015-02-02 22:28:57,138 ERROR [Worker-60] - System.err - [Fatal Error] :12:2: The value of attribute "xsi:schemaLocation" associated with an element type "null" must not contain the '<' character.
+2015-02-02 22:29:05,157 ERROR [Worker-51] - System.err - [Fatal Error] :12:2: The value of attribute "xsi:schemaLocation" associated with an element type "null" must not contain the '<' character.
+2015-02-02 22:29:05,160 ERROR [Worker-51] - System.err - [Fatal Error] :12:2: The value of attribute "xsi:schemaLocation" associated with an element type "null" must not contain the '<' character.
+2015-02-02 22:37:47,227 ERROR [Worker-67] - System.err - [Fatal Error] :46:1: Element type "tx:" must be followed by either attribute specifications, ">" or "/>".
+2015-02-02 22:37:47,230 ERROR [Worker-67] - System.err - [Fatal Error] :46:1: Element type "tx:" must be followed by either attribute specifications, ">" or "/>".
+2015-02-02 22:38:20,119 ERROR [Worker-70] - System.err - [Fatal Error] :44:26: The prefix "tx" for element "tx:annotation-driven" is not bound.
+2015-02-02 22:38:20,121 ERROR [Worker-70] - System.err - [Fatal Error] :44:26: The prefix "tx" for element "tx:annotation-driven" is not bound.
+2015-02-02 22:38:31,598 ERROR [Worker-60] - System.err - [Fatal Error] :44:26: The prefix "tx" for element "tx:annotation-driven" is not bound.
+2015-02-02 22:38:31,602 ERROR [Worker-60] - System.err - [Fatal Error] :44:26: The prefix "tx" for element "tx:annotation-driven" is not bound.
+2015-02-02 22:38:31,607 ERROR [Worker-60] - System.err - [Fatal Error] :44:26: The prefix "tx" for element "tx:annotation-driven" is not bound.
+2015-02-03 00:44:24,258  WARN [Worker-6] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-02-03 00:44:24,274  WARN [Worker-6] - ScalaProject - Project sandbox runs on platform default installation.
+2015-02-03 22:17:16,810  WARN [Worker-3] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-02-03 22:17:16,822  WARN [Worker-3] - ScalaProject - Project sandbox runs on platform default installation.
+2015-02-03 22:49:44,084 ERROR [Worker-10] - System.err - [Fatal Error] :36:3: Element type "property" must be followed by either attribute specifications, ">" or "/>".
+2015-02-03 22:49:46,334 ERROR [Worker-3] - System.err - [Fatal Error] :36:3: Element type "property" must be followed by either attribute specifications, ">" or "/>".
+2015-02-03 22:49:49,521 ERROR [Worker-9] - System.err - [Fatal Error] :36:3: Element type "property" must be followed by either attribute specifications, ">" or "/>".
+2015-02-03 22:49:52,725 ERROR [Worker-9] - System.err - [Fatal Error] :36:3: Element type "property" must be followed by either attribute specifications, ">" or "/>".
+2015-02-03 22:49:54,771 ERROR [Worker-0] - System.err - [Fatal Error] :36:3: Element type "property" must be followed by either attribute specifications, ">" or "/>".
+2015-02-03 22:55:32,542 ERROR [Worker-3] - System.err - [Fatal Error] :46:1: Element type "tx:" must be followed by either attribute specifications, ">" or "/>".
+2015-02-03 22:55:32,542 ERROR [Worker-3] - System.err - [Fatal Error] :46:1: Element type "tx:" must be followed by either attribute specifications, ">" or "/>".
+2015-02-03 22:55:32,542 ERROR [Worker-3] - System.err - [Fatal Error] :46:1: Element type "tx:" must be followed by either attribute specifications, ">" or "/>".
+2015-02-03 22:55:35,261 ERROR [Worker-4] - System.err - [Fatal Error] :47:1: Element type "tx:" must be followed by either attribute specifications, ">" or "/>".
+2015-02-03 22:55:38,373 ERROR [Worker-3] - System.err - [Fatal Error] :47:1: Element type "tx:" must be followed by either attribute specifications, ">" or "/>".
+2015-02-03 22:55:44,967 ERROR [Worker-9] - System.err - [Fatal Error] :47:1: Element type "tx:" must be followed by either attribute specifications, ">" or "/>".
+2015-02-04 20:12:36,343  WARN [Worker-7] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-02-04 20:12:36,375  WARN [Worker-7] - ScalaProject - Project sandbox runs on platform default installation.
+2015-02-04 20:34:58,836 ERROR [Worker-9] - System.err - [Fatal Error] :24:17: Element type "prop" must be followed by either attribute specifications, ">" or "/>".
+2015-02-04 20:45:11,605 ERROR [Worker-1] - System.err - [Fatal Error] :46:1: Element type "tx:" must be followed by either attribute specifications, ">" or "/>".
+2015-02-04 20:45:16,511 ERROR [Worker-1] - System.err - [Fatal Error] :46:1: Element type "tx:" must be followed by either attribute specifications, ">" or "/>".
+2015-02-04 20:45:16,511 ERROR [Worker-1] - System.err - [Fatal Error] :46:1: Element type "tx:" must be followed by either attribute specifications, ">" or "/>".
+2015-02-04 20:45:18,746 ERROR [Worker-8] - System.err - [Fatal Error] :47:1: Element type "tx:" must be followed by either attribute specifications, ">" or "/>".
+2015-02-04 20:45:27,061 ERROR [Worker-17] - System.err - [Fatal Error] :47:1: Element type "tx:" must be followed by either attribute specifications, ">" or "/>".
+2015-02-04 23:11:33,824 ERROR [Thread-2175] - System.err - java.net.UnknownHostException: spring.io
+2015-02-04 23:11:35,099 ERROR [Thread-2175] - System.err - at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+2015-02-04 23:11:35,099 ERROR [Thread-2175] - System.err - at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+2015-02-04 23:11:35,099 ERROR [Thread-2175] - System.err - at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+2015-02-04 23:11:35,099 ERROR [Thread-2175] - System.err - at java.net.InetAddress.getAllByName0(Unknown Source)
+2015-02-04 23:11:35,099 ERROR [Thread-2175] - System.err - at java.net.InetAddress.getAllByName(Unknown Source)
+2015-02-04 23:11:35,099 ERROR [Thread-2175] - System.err - at java.net.InetAddress.getAllByName(Unknown Source)
+2015-02-04 23:11:35,099 ERROR [Thread-2175] - System.err - at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+2015-02-04 23:11:35,099 ERROR [Thread-2175] - System.err - at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:278)
+2015-02-04 23:11:35,099 ERROR [Thread-2175] - System.err - at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+2015-02-04 23:11:35,099 ERROR [Thread-2175] - System.err - at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:151)
+2015-02-04 23:11:35,099 ERROR [Thread-2175] - System.err - at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:125)
+2015-02-04 23:11:35,099 ERROR [Thread-2175] - System.err - at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:643)
+2015-02-04 23:11:35,099 ERROR [Thread-2175] - System.err - at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+2015-02-04 23:11:35,099 ERROR [Thread-2175] - System.err - at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+2015-02-04 23:11:35,099 ERROR [Thread-2175] - System.err - at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+2015-02-04 23:11:35,099 ERROR [Thread-2175] - System.err - at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+2015-02-04 23:11:35,100 ERROR [Thread-2175] - System.err - at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+2015-02-04 23:11:35,102 ERROR [Thread-2175] - System.err - at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+2015-02-04 23:11:35,102 ERROR [Thread-2175] - System.err - at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+2015-02-04 23:11:35,102 ERROR [Thread-2175] - System.err - at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+2015-02-06 02:12:39,482  WARN [Worker-6] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-02-06 02:12:39,484  WARN [Worker-6] - ScalaProject - Project sandbox runs on platform default installation.
+2015-02-06 02:13:26,241  WARN [Worker-8] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-02-06 02:13:26,243  WARN [Worker-8] - ScalaProject - Project sandbox runs on platform default installation.
+2015-02-06 04:01:46,715 ERROR [Worker-62] - System.err - [Fatal Error] :3:11: XML document structures must start and end within the same entity.
+2015-02-06 04:01:48,771 ERROR [Worker-64] - System.err - [Fatal Error] :3:11: XML document structures must start and end within the same entity.
+2015-02-06 04:03:15,323 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :-1:-1: Premature end of file.
+2015-02-06 04:03:18,338 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :-1:-1: Premature end of file.
+2015-02-06 04:03:22,353 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :-1:-1: Premature end of file.
+2015-02-06 04:03:23,368 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :-1:-1: Premature end of file.
+2015-02-06 04:03:37,889 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:03:53,638 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:04:06,664 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:04:10,808 ERROR [Worker-62] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:04:17,690 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:11:43,143 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:11:53,956 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:11:57,986 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:12:01,508 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:12:04,533 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:12:06,053 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:12:07,572 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:12:11,595 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:12:14,615 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:12:16,132 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:12:18,152 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:12:21,675 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:12:24,695 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:12:27,247 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:13:46,025 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:13:47,197 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:13:54,733 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:13:58,763 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:14:04,281 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:14:08,304 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:14:21,476 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:14:29,494 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:14:51,030 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:14:52,046 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:14:55,064 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:14:59,081 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:15:11,611 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:23: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:15:18,127 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:15:21,637 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:15:29,834 ERROR [Worker-70] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:15:33,562 ERROR [Worker-70] - System.err - [Fatal Error] :4:87: White spaces are required between publicId and systemId.
+2015-02-06 04:15:46,376 ERROR [Worker-72] - System.err - [Fatal Error] :4:87: White spaces are required between publicId and systemId.
+2015-02-06 04:15:52,267 ERROR [Worker-68] - System.err - [Fatal Error] :4:87: White spaces are required between publicId and systemId.
+2015-02-06 04:16:02,107 ERROR [Worker-71] - System.err - [Fatal Error] :4:87: White spaces are required between publicId and systemId.
+2015-02-06 04:16:10,752 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :6:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:19:05,049 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :6:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:19:18,827 ERROR [Worker-68] - System.err - [Fatal Error] :3:50: White spaces are required between publicId and systemId.
+2015-02-06 04:19:20,122 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:19:39,156 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:19:57,693 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:24:10,803 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:29:11,564 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:29:24,094 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:29:26,609 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:29:28,626 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:29:37,152 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:29:38,168 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:29:39,185 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:29:40,700 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:29:42,717 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:29:47,238 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:29:50,759 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:29:53,777 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:29:55,293 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:29:56,808 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:29:58,328 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:29:59,847 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:30:03,365 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:30:05,383 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:30:10,404 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:30:12,420 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:30:16,434 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:30:18,955 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:30:20,976 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:32:18,050 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:32:29,077 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:32:30,089 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-06 04:33:02,131 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - [Fatal Error] :5:22: The prefix "log4j" for element "log4j:configuration" is not bound.
+2015-02-07 20:50:34,804  WARN [Worker-10] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-02-07 20:50:34,844  WARN [Worker-10] - ScalaProject - Project sandbox runs on platform default installation.
+2015-02-07 20:51:51,082  WARN [Worker-0] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-02-07 20:51:51,084  WARN [Worker-0] - ScalaProject - Project sandbox runs on platform default installation.
+2015-02-07 23:50:20,736 ERROR [Thread-678] - System.err - java.net.UnknownHostException: spring.io
+2015-02-07 23:50:20,736 ERROR [Thread-678] - System.err - at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+2015-02-07 23:50:20,736 ERROR [Thread-678] - System.err - at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+2015-02-07 23:50:20,736 ERROR [Thread-678] - System.err - at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+2015-02-07 23:50:20,736 ERROR [Thread-678] - System.err - at java.net.InetAddress.getAllByName0(Unknown Source)
+2015-02-07 23:50:20,736 ERROR [Thread-678] - System.err - at java.net.InetAddress.getAllByName(Unknown Source)
+2015-02-07 23:50:20,736 ERROR [Thread-678] - System.err - at java.net.InetAddress.getAllByName(Unknown Source)
+2015-02-07 23:50:20,737 ERROR [Thread-678] - System.err - at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+2015-02-07 23:50:20,737 ERROR [Thread-678] - System.err - at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:278)
+2015-02-07 23:50:20,737 ERROR [Thread-678] - System.err - at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+2015-02-07 23:50:20,737 ERROR [Thread-678] - System.err - at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:151)
+2015-02-07 23:50:20,737 ERROR [Thread-678] - System.err - at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:125)
+2015-02-07 23:50:20,737 ERROR [Thread-678] - System.err - at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:643)
+2015-02-07 23:50:20,737 ERROR [Thread-678] - System.err - at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+2015-02-07 23:50:20,737 ERROR [Thread-678] - System.err - at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+2015-02-07 23:50:20,737 ERROR [Thread-678] - System.err - at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+2015-02-07 23:50:20,737 ERROR [Thread-678] - System.err - at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+2015-02-07 23:50:20,737 ERROR [Thread-678] - System.err - at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+2015-02-07 23:50:20,737 ERROR [Thread-678] - System.err - at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+2015-02-07 23:50:20,737 ERROR [Thread-678] - System.err - at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+2015-02-07 23:50:20,737 ERROR [Thread-678] - System.err - at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+2015-02-08 21:13:59,159  WARN [Worker-6] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-02-08 21:13:59,200  WARN [Worker-6] - ScalaProject - Project sandbox runs on platform default installation.
+2015-02-09 20:42:10,782 ERROR [Worker-277] - System.err - [Fatal Error] :11:6: The content of elements must consist of well-formed character data or markup.
+2015-02-09 20:42:13,980 ERROR [Worker-274] - System.err - [Fatal Error] :11:6: The content of elements must consist of well-formed character data or markup.
+2015-02-09 20:42:21,131 ERROR [Worker-272] - System.err - [Fatal Error] :11:6: The content of elements must consist of well-formed character data or markup.
+2015-02-09 20:42:23,466 ERROR [Worker-272] - System.err - [Fatal Error] :11:6: The content of elements must consist of well-formed character data or markup.
+2015-02-11 00:01:51,175  WARN [Worker-0] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-02-11 00:01:51,215  WARN [Worker-0] - ScalaProject - Project sandbox runs on platform default installation.
+2015-02-11 23:06:50,194  WARN [Worker-5] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-02-11 23:06:50,194  WARN [Worker-6] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-02-11 23:06:50,196  WARN [Worker-6] - ScalaProject - Project sandbox runs on platform default installation.
+2015-02-11 23:06:50,196  WARN [Worker-5] - ScalaProject - Project sandbox runs on platform default installation.
+2015-02-11 23:07:41,400  WARN [Worker-7] - ScalaProject - Project sandbox has platform default sourceLevel.
+2015-02-11 23:07:41,400  WARN [Worker-7] - ScalaProject - Project sandbox runs on platform default installation.
+2015-02-11 23:30:11,680 ERROR [main] - System.err - log4j:WARN No appenders could be found for logger (org.springframework.ide.eclipse.wizard.template.infrastructure.processor.TemplateProcessor).
+2015-02-11 23:30:11,680 ERROR [main] - System.err - log4j:WARN Please initialize the log4j system properly.

@@ -1,0 +1,29 @@
+package first;
+
+public class ApControl {
+	
+	public void doDraw() {
+		Resolution res = Resolution.getResolution();
+		switch (res) {
+		case HIGH:
+			DrawDriver drawDriver = new HighDrawDriver("high-res");
+			drawDriver.doDraw();
+			break;
+		case LOW:
+			System.out.println("drawing with low-res driver");
+			break;	
+		}
+	}
+	
+	public void doPrint() {
+		Resolution res = Resolution.getResolution();
+		switch (res) {
+		case HIGH:
+			System.out.println("printing with high-res driver");
+			break;
+		case LOW:
+			System.out.println("printing with low-res driver");
+			break;	
+		}
+	}
+}

@@ -1,0 +1,12 @@
+package orip;
+
+import org.springframework.stereotype.Component;
+
+@Component("foo2")
+public class Foo2 implements Foo {
+
+	public int getNum() {
+		return 2;
+	}
+
+}

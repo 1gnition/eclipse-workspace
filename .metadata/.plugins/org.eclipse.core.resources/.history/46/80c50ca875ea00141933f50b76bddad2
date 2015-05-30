@@ -1,0 +1,10 @@
+package orip;
+
+public class Foo2 implements Foo {
+
+	public int getNum() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

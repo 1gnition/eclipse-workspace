@@ -1,0 +1,5 @@
+package orip;
+
+public class Foo1 implements Foo {
+
+}

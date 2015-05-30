@@ -1,0 +1,16 @@
+package orip;
+
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Main {
+	public static void main(String[] args) {
+		ConfigurableApplicationContext ctx = new ClassPathXmlApplicationContext("beans.xml");
+		
+		String string = ctx.getBean("string", String.class);
+		
+		System.out.println(string);
+		
+		ctx.close();
+	}
+}

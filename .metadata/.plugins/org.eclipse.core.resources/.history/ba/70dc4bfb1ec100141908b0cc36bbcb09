@@ -1,0 +1,10 @@
+package first;
+
+public abstract class Driver {
+	
+	String type;
+	
+	public Driver(String type) {
+		
+	}
+}

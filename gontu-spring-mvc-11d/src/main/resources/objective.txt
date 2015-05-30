@@ -1,0 +1,1 @@
+Eliminate all the code duplication of a common title using @ModelAttribute method

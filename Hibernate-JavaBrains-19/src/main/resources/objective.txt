@@ -1,0 +1,7 @@
+Table per class inheritance
+------------------------
+
+1.	Do the same but with table per class
+2.	Observe that the child tables inherit the columns
+3.	Observe that the child classes inherit the annotations (i.e. @GeneratedValue)
+4.	

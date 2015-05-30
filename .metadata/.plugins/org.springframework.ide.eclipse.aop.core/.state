@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="Hibernate-JavaBrains-Spring-8"/>
+<aop-project name="gontu-spring-mvc-11b"/>
+<aop-project name="gontu-spring-mvc-5"/>
+<aop-project name="gontu-spring-mvc-10"/>
+<aop-project name="gontu-spring-mvc-14"/>
+<aop-project name="Hibernate-JavaBrains-Spring-9"/>
+<aop-project name="gontu-spring-mvc-11c"/>
+<aop-project name="Spring-Hibernate1a"/>
+<aop-project name="gontu-spring-mvc-8"/>
+<aop-project name="gontu-spring-mvc-13"/>
+<aop-project name="gontu-spring-mvc-11d"/>
+<aop-project name="spring-annotation"/>
+<aop-project name="gontu-spring-mvc-7"/>
+<aop-project name="gontu-spring-mvc-9b"/>
+<aop-project name="sql-exercies-the-computer-store"/>
+<aop-project name="interview"/>
+<aop-project name="gontu-spring-mvc-11a"/>
+<aop-project name="gontu-spring-mvc-6"/>
+<aop-project name="mmm"/>
+<aop-project name="gontu-spring-mvc-9a"/>
+</aop-reference-model>

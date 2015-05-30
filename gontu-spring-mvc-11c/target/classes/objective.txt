@@ -1,0 +1,1 @@
+Add the same title to every page in the application

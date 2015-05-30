@@ -1,0 +1,7 @@
+1417274209040	Move compilation unit
+1417274605052	Extract local variable 'configuration'
+1417275325578	Extract local variable 'session'
+1417275348227	Extract local variable 'session'
+1417278985216	Rename resource 'hibernate.hbm.xml'
+1417279384116	Extract local variable 'user'
+1417296823421	Extract local variable 'loadedUser'

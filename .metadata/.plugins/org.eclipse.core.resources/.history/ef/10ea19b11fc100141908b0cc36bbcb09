@@ -1,0 +1,9 @@
+package first;
+
+public class LowPrintDriver extends PrintDriver {
+
+	public LowPrintDriver(String type) {
+		super(type);
+	}
+
+}

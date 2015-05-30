@@ -1,0 +1,2 @@
+Transform the MVC prject from the previous lesson to an annotation based
+project

@@ -1,0 +1,2 @@
+Review the three basic operations: create, update, delete.
+1.	Create a table with 10 UserDetails objects and perform a get, create, update, delete

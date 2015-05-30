@@ -1,0 +1,9 @@
+HQL
+---
+
+1.	Understand the disadvantages of the queries of the previous lesson
+	* Hibernate does a lot of work behind the scenes to convert the data to objects
+	* We cannot get only one column. We get a whole object
+	* We don't have pagination
+2.	Learn to use pagination
+3.	Learn the select keyword

@@ -1,0 +1,4 @@
+1.	Understand the difference between natural key and a surrogate key
+2.	How Hibernate supports the use of surrogate keys using the @GeneratedValue
+3.	Define the id attribute of UserDetails as a surrogate key
+4.	Understand @GenerateValue's strategy parameter
